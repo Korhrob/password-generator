@@ -1,0 +1,25 @@
+﻿<Application
+    x:Class="Passgen.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Passgen" RequestedTheme="Dark">
+
+    <Application.Resources>
+        <!-- Global Styles for the App -->
+
+        <!-- Style for Frame: Remove any extra margins or paddings -->
+        <Style TargetType="Frame">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+
+        <!-- Style for Pages: Ensure no extra margins or paddings around the content -->
+        <Style TargetType="Page">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Background" Value="#FF080808"/>
+        </Style>
+
+    </Application.Resources>
+
+</Application>
